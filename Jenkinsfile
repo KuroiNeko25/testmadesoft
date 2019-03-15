@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'echo Building ${BRANCH_NAME}...'
+        sh 'C\windows\system32\cmd.exe echo Building ${BRANCH_NAME}...'
       }
     }
   }
